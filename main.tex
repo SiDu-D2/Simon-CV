@@ -1,0 +1,204 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Simon Duff} \\ \vspace{1pt}
+    \small +44 7817 085 621 $|$ \href{mailto:simontd13@gmail.com}{\underline{simontd13@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/simontduff/}{\underline{linkedin.com/in/simontduff}} $|$
+    \href{https://github.com/SiDu-D2}{\underline{github.com/SiDu-D2}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Strathclyde}{Glasgow, UK}
+      {Masters of Engineering in Civil Engineering}{Sep. 2011 - May 2016}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Civil Engineer}{Jan. 2021 - Present}
+      {Transport Planning \& Engineering}{Glasgow, UK}
+      \resumeItemListStart
+        \resumeItem{Leading the design and project management for several active travel schemes throughout Scotland.}
+        \resumeItem{Providing solutions to clients in the form of technical drawings, reports and costings to take projects from feasibility stage to construction.}
+        \resumeItem{Communication with stakeholders such as local communities, landowners, funders, clients and local authorities to develop designs that will benefit and be inclusive of all users.}
+        \resumeItem{Often presenting design options to stakeholders and delivering analysis justified through thorough research and data.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Civil Engineer}{Sep. 2016 - Jan. 2021}
+      {Mott MacDonald Ltd}{Glasgow, UK}
+      \resumeItemListStart
+        \resumeItem{Used Buildings Information Management to produce 3D models of proposed drainage networks for new building projects.}
+                \resumeItem{Became adept at an array of new software such as Excel VBA, Civil 3D (3D modelling), MicroDrainage (drainage simulations). }
+        \resumeItem{Seven month secondment to Northumberland County Council Roads Design Team. Project management and design of several projects that included new road signs, road markings and surfacing. }
+        \resumeItem{Six month secondment to Scottish Water technical services team. Provided data analysis of  wastewater treatment works requiring upgrading and an estimate of their costs.}
+                \resumeItem{Formal training provided as part of graduate programme such as public speaking, project management, project budgeting, construction management.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Trainee Engineer}{Jun. 2015 -- Sep. 2016}
+      {Amey plc}{Motherwell, UK}
+      \resumeItemListStart
+        \resumeItem{Progression of AutoCAD skills in part-time role during final year of university.}
+        \resumeItem{Designed pipes and drains for 10km of new motorway, the M8, between Glasgow and Edinburgh.}
+        \resumeItem{Learned a landscape architecture software (KeySCAPE) over several weeks to present clients with planting drawings for new motorway.}
+        \resumeItem{Weekly presentations of work to colleagues to demonstrate understanding and progress.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Skills/Hobbies}
+    \resumeItemListStart
+            \resumeItem{Currently enrolled in several online coding courses: Harvard\'s CS50, The Odin Project and FreeCodeCamp.org.}
+            \resumeItem{Projects include using HTML and CSS to build a recipe site and using Replit, React and Vite to create an employee team allocation site.}
+            \resumeItem{I play rugby at Paisley RFC where I'm also the club secretary since 2021.}
+            \resumeItem{I love the outdoors, cycling, running, hill-walking and dog-training.}
+          \resumeItemListEnd
+
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: JavaScript, HTML, CSS, C} \\
+     \textbf{Frameworks}{: React} \\
+     \textbf{Developer Tools}{: Git, VS Code, Replit} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
